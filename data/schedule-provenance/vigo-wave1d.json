@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-09-18T07:43:29.228Z",
+  "wave": "wave-1d",
+  "port": "vigo",
+  "destSlug": "vigo",
+  "displayName": "Vigo",
+  "counts": {
+    "2026": 59,
+    "2027": 127,
+    "2028_discovery": 67,
+    "2028_published": 0,
+    "public_total": 186,
+    "h1_2026": 0
+  },
+  "partial2026": true,
+  "filter2028": {
+    "decision": "HOLD",
+    "reason": "validated 3 < MIN_PUBLISH_ROWS 15 — HOLD; restricted rows NOT reintroduced",
+    "validatedCount": 3,
+    "tier2PrincessKeys": 0
+  },
+  "timeCompleteness": {
+    "2026": {
+      "total": 59,
+      "arrival": 40,
+      "departure": 40,
+      "both": 40,
+      "neither": 19,
+      "pctBoth": 67.8
+    },
+    "2027": {
+      "total": 127,
+      "arrival": 74,
+      "departure": 74,
+      "both": 74,
+      "neither": 53,
+      "pctBoth": 58.3
+    },
+    "2028": {
+      "total": 0,
+      "arrival": 0,
+      "departure": 0,
+      "both": 0,
+      "neither": 0,
+      "pctBoth": 0
+    }
+  },
+  "contaminationPurged": [
+    "src/data/imported-schedules/savona.json"
+  ],
+  "wireSchedulesTs": {
+    "wired": true,
+    "reason": "import wired"
+  }
+}

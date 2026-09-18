@@ -1,0 +1,6 @@
+# Workers Assets: relative path redirects only.
+# Configure www → apex on Cloudflare Custom Domains / Redirect Rules (user-managed).
+
+# Optional path aliases (relative only)
+/walk-it-yourself /guides/explore-independently 301
+/walk-it-yourself/ /guides/explore-independently 301
